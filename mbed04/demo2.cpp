@@ -17,6 +17,7 @@ int main()
     // basic printf demo = 16 by 18 characters on screen
 
     uLCD.background_color(0xFFFFFF); // white
+    uLCD.textbackground_color(0xFFFFFF);
     uLCD.cls();
     uLCD.color(BLUE);
     uLCD.printf("\n107061141\n"); //Default Green on black text
